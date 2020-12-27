@@ -15,7 +15,7 @@ Les clients qui commandent les plats sont aussi les cuisiniers qui peuvent propo
 Chaque client peut proposer ses recettes qui pourront être intégrées à la liste des recettes proposées par Cooking.
 <br><br>
 **Fonctionnement du concept :**
-3 acteurs interagissent dans ce concept : les clients, les créateurs de recette, la société Cooking.
+3 acteurs interagissent dans ce concept : les clients, les créateurs de recette, la société Cooking.<br>
 Les clients:
  - Ils commandent les plats
  - Ils payent les plats commandés
@@ -33,34 +33,38 @@ Cooking:
 ## Les informations détaillées :
 Il vous est fournit ci-dessous les informations décrites par le client (la société Cooking)
 Vous rajouterez toute information supplémentaire nécessaire à la réalisation des fonctionnalités demandées dans le
-cahier des charges.
-Vous utiliserez les identifiants qui vous sembleront pertinents.
+cahier des charges.<br>
+Vous utiliserez les identifiants qui vous sembleront pertinents.<br><br>
 • Un client a :
-o un nom
-o un numéro de téléphone.
+ - un nom
+ - un numéro de téléphone.<br>
+ 
 • Un créateur de recettes (CdR)
-o c'est un client particulier (tout CdR est d'office un client, mais tous les clients ne sont pas des CdR)
+ - c'est un client particulier (tout CdR est d'office un client, mais tous les clients ne sont pas des CdR)<br>
+ 
 • Une recette est constituée
-o d'un nom,
-o d'un type (descriptif en un mot)
-o d'une liste d'ingrédients (les "produits") et des quantités nécessaires (exprimée dans l'unité du
+ - d'un nom,
+ - d'un type (descriptif en un mot)
+ - d'une liste d'ingrédients (les "produits") et des quantités nécessaires (exprimée dans l'unité du
 produit),
-o d'un descriptif ("un texte" de 256 caractères),
-o d'un prix de vente client exprimé en cook (fixé arbitrairement par le CdR à la création de la recette
+ - d'un descriptif ("un texte" de 256 caractères),
+ - d'un prix de vente client exprimé en cook (fixé arbitrairement par le CdR à la création de la recette
 (entre 10 et 40 cook) et d'une rémunération pour le cuisinier (fixée arbitrairement à 2 cook à la
-création d'une recette).
+création d'une recette).<br>
+
 • Les produits :
-o un nom,
-o une catégorie (viande, poisson, légume…),
-o une unité de quantité applicable à ce produit (cette unité servant à la fois aux recettes et aux
+ - un nom,
+ - une catégorie (viande, poisson, légume…),
+ - une unité de quantité applicable à ce produit (cette unité servant à la fois aux recettes et aux
 commandes de réapprovisionnement),
-o un stock actuel,
-o un stock minimal (fixé à la création d'une recette à stock mini précédent/2 + 3 fois la quantité pour
+ - un stock actuel,
+ - un stock minimal (fixé à la création d'une recette à stock mini précédent/2 + 3 fois la quantité pour
 cette nouvelle recette),
-o un stock maximum (fixé à la création d'une la recette à stock maxi précédent + 2 fois la quantité
+ - un stock maximum (fixé à la création d'une la recette à stock maxi précédent + 2 fois la quantité
 pour cette nouvelle recette),
-o un nom de fournisseur (pas de gestion des prix d'achat dans ce PoC),
-o une référence fournisseur
+ - un nom de fournisseur (pas de gestion des prix d'achat dans ce PoC),
+ - une référence fournisseur<br>
+ 
 • Les fournisseurs :
-o un nom,
-o un numéro de téléphone.
+ - un nom,
+ - un numéro de téléphone.
